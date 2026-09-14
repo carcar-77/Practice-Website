@@ -1,0 +1,70 @@
+body{
+    background-color: lightpink;
+    color: deepskyblue;
+}
+#Goldilox{
+    font: bold 20px "Times New Roman", serif;
+    border: aquamarine 6px dotted;
+}
+.duck{
+width: 50%;
+    height:50%;
+    padding: 10px;
+}
+#gridsomething{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+    img {
+        grid-column: span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+    p{
+        grid-column: span 2;
+        grid-row: span 2;
+
+    }
+    a{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+#myOL{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.body{
+    font: 20px "Permanent Marker";
+}
+a[href*="frhsd.com"]{
+    color: lime;
+    font-weight: bold;
+    font-size: large;
+}
+ul>li:first-child{
+    color: fuchsia;
+}
+a[href*="https://www.linkedin.com/in/adam-goldstein-18b8b8284"]{
+    color: lime;
+    font-weight: bold;
+    font-size: large;
+}
+a:visited{
+    color: beige;
+}
+li:hover{
+    background-color: navy;
+}
+div{
+    li {
+        padding-bottom: 10px;
+    }
+    li + li{
+        margin-left: 10px;
+    }
+}
